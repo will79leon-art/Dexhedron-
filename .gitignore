@@ -4,15 +4,39 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
-# Other files and folders
+# IDE / Editor directories
 .settings/
+.vscode/
+.idea/
 
-# Executables
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary and log files
+*.log
+*.tmp
+*.cache
+
+# Executables / packages
 *.swf
 *.air
 *.ipa
 *.apk
 
+# Package manager directories
+node_modules/
+.venv/
+venv/
+.env
+
+# Compiled source
+*.class
+*.pyc
+*.pyo
+*.pyd
+
+# Project files (keep compiler settings if needed)
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
